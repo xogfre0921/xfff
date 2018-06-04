@@ -13,10 +13,15 @@
 zxgfsdgvadg
 </body>
 <script>
+    var num = 1;
     function go() {
-        alert("真的要打开吗？");
-        alret("456");
-        alret("789");
+        if(num%7==0){
+            document.body.innerHTML="过";
+        }
+        else{
+            document.body.innerHTML=num;
+        }
+        num=num+1
     }
 </script>
 </html>
